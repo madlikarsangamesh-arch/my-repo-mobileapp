@@ -1,56 +1,50 @@
-# Welcome to your Expo app 👋
+# SANGAMESH MADLIKAR - Portfolio
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+Welcome to my personal developer portfolio! This application was built to showcase my projects, skills, and professional experience as an Information Science and Engineering student.
 
-## Get started
+## 🚀 Live Demo
 
-1. Install dependencies
+You can view the live, production-ready web version of this app here:
+**[View Live Portfolio](https://mobileapplication-kappa.vercel.app)**
 
+## 💻 Tech Stack
+
+This project is a modern, cross-platform application built using the latest mobile and web technologies:
+- **React Native** (via **Expo SDK 56**)
+- **Expo Router** (File-based routing for React Native and Web)
+- **React Reanimated** (For smooth 60fps micro-animations and transitions)
+- **TypeScript** (For robust, type-safe code)
+- **Vercel** (For high-performance static web hosting)
+
+## ✨ Features
+
+- **Cross-Platform:** Runs seamlessly on Web, iOS, and Android using a single codebase.
+- **Glassmorphism Design:** Beautiful translucent UI cards and components.
+- **Dark Mode:** A sleek, custom dark theme built with tailored color palettes.
+- **Interactive Animations:** Fade-ins and scale effects powered by React Native Reanimated.
+- **Data-Driven:** All content (projects, experience, skills) is dynamically driven by a centralized `data.ts` file, making updates incredibly simple.
+- **Contact Integration:** Functional mailto linking for direct communication.
+
+## 🛠️ Local Development
+
+If you'd like to run this project locally on your machine:
+
+1. Clone this repository:
+   ```bash
+   git clone https://github.com/madlikarsangamesh-arch/my-repo-mobileapp.git
+   ```
+
+2. Install dependencies:
    ```bash
    npm install
    ```
 
-2. Start the app
-
+3. Start the development server:
    ```bash
    npx expo start
    ```
 
-In the output, you'll find options to open the app in a
+4. Press `w` in the terminal to open the web version, or scan the QR code with the Expo Go app on your phone.
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
-
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
-
-## Get a fresh project
-
-When you're ready, run:
-
-```bash
-npm run reset-project
-```
-
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
-
-### Other setup steps
-
-- To set up ESLint for linting, run `npx expo lint`, or follow our guide on ["Using ESLint and Prettier"](https://docs.expo.dev/guides/using-eslint/)
-- If you'd like to set up unit testing, follow our guide on ["Unit Testing with Jest"](https://docs.expo.dev/develop/unit-testing/)
-- Learn more about the TypeScript setup in this template in our guide on ["Using TypeScript"](https://docs.expo.dev/guides/typescript/)
-
-## Learn more
-
-To learn more about developing your project with Expo, look at the following resources:
-
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
-
-## Join the community
-
-Join our community of developers creating universal apps.
-
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+---
+*Built with ❤️ using React Native and Expo.*
