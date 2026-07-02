@@ -8,7 +8,7 @@ export const PORTFOLIO_DATA = {
     email: "madlikarsangamesh@gmail.com",
     github: "https://github.com/madlikarsangamesh-arch",
     linkedin: "https://www.linkedin.com/in/sangamesh-madlikar-2a9085333?utm_source=share_via&utm_content=profile&utm_medium=member_android",
-    image: "https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?auto=format&fit=crop&w=500&q=80",
+    image: require('@/assets/images/profile.jpeg'),
   },
   stats: [
     { label: "Projects", value: "12+" },
@@ -82,10 +82,10 @@ export const PORTFOLIO_DATA = {
   education: [
     {
       id: "1",
-      degree: "B.S. in Computer Science",
-      institution: "State University",
-      duration: "2022 - 2026",
-      cgpa: "3.8/4.0",
+      degree: "information Science and enginnering ",
+      institution: "presidency University",
+      duration: "2024- 2028",
+      cgpa: "3.8/5",
       coursework: ["Data Structures", "Algorithms", "Mobile App Development", "Database Systems"]
     }
   ],
