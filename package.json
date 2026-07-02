@@ -43,6 +43,7 @@
     "android": "expo start --android",
     "ios": "expo start --ios",
     "web": "expo start --web",
+    "build": "npx expo export -p web -c",
     "build:web": "npx expo export -p web -c",
     "vercel-build": "npx expo export -p web -c",
     "lint": "expo lint"
