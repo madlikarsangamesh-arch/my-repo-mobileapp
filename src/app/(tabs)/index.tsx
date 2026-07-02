@@ -17,7 +17,7 @@ export default function HomeScreen() {
     <SafeAreaView style={styles.safeArea}>
       <ScrollView contentContainerStyle={styles.container} showsVerticalScrollIndicator={false}>
         <Animated.View entering={FadeInUp.delay(100).duration(500)} style={styles.hero}>
-          <Image source={personal.image} style={styles.profileImage} contentFit="cover" />
+          <Image source={require('@/assets/images/profile.jpeg')} style={styles.profileImage} contentFit="cover" />
           <View style={styles.availabilityBadge}>
             <View style={styles.availabilityDot} />
             <Text style={styles.availabilityText}>{personal.availability}</Text>

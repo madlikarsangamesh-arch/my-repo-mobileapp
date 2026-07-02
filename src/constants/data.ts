@@ -8,7 +8,7 @@ export const PORTFOLIO_DATA = {
     email: "madlikarsangamesh@gmail.com",
     github: "https://github.com/madlikarsangamesh-arch",
     linkedin: "https://www.linkedin.com/in/sangamesh-madlikar-2a9085333?utm_source=share_via&utm_content=profile&utm_medium=member_android",
-    image: require('@/assets/images/profile.jpeg'),
+    image: "",
   },
   stats: [
     { label: "Projects", value: "12+" },
